@@ -1,0 +1,5 @@
+cuando vayas a usar los @use, recuerda que les tienes que poner un alias y aplicarlos a la hora de llamarlos, si no no funciona:
+
+@use "./abstracts/abstracts" as ab;
+
+cuando vayas a llamar una variable que hayas definido, tendrás que poner ab.$nombre_de_la_variable
