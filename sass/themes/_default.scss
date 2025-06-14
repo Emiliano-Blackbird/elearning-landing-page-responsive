@@ -1,7 +1,9 @@
+@use '../abstracts/variables' as vars; // Import variables from abstracts
+
 html * {
-    font-family: $primary-font;
+  font-family: vars.$primary-font;
 }
- 
+
 body {
-    overflow-x: hidden;
-} 
+  overflow-x: hidden;
+}
