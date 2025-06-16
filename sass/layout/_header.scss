@@ -1,12 +1,13 @@
 @use '../abstracts' as *;
 
 header.header-principal {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 
   .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   ul {

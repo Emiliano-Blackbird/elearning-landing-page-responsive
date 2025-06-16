@@ -1,3 +1,5 @@
+@use 'variables' as *; // Importa las variables de _variables.scss (importante)
+
 // Breakpoints mixin con validación
 // Usa: @include breakpoint(tablet) { ... }
 
@@ -28,4 +30,14 @@
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+@mixin button($bg-color: $black, $color: $white) {
+  display: inline-block;
+  padding: 16px 24px;
+  color: $color;
+  background-color: $bg-color;
+  text-decoration: none;
+  border-radius: 28px;
+  font-weight: bold;
 }
