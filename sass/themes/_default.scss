@@ -1,4 +1,4 @@
-@use '../abstracts/variables' as vars; // Import variables from abstracts
+@use './abstracts/variables' as vars; // Import variables from abstracts
 
 html * {
   font-family: vars.$primary-font;

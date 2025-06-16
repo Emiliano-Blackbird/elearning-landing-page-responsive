@@ -5,4 +5,7 @@ header.header-principal {
     display: flex;
     justify-content: space-between;
   }
+  ul {
+   @include reset-list();
+  }
 }
