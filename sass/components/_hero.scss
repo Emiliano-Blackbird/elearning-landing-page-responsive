@@ -11,4 +11,57 @@
         color: gray;
         line-height: 26px;
     }
+
+    &_buttons {
+        margin-bottom: 40px;
+    }
+
+    &_img {
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        position: relative;
+    }
+
+    &_number {
+        display: inline-block;
+        width: max-content;
+        background-color: white;
+        color: black;
+        padding: 5px;
+        gap: 10px;
+        text-align: left;
+        position: absolute;
+        border-radius: 1rem;
+        box-shadow: 0 5px 10px black;
+        span {
+            display: block;
+        }
+
+        &-title {
+            font-size: 14px;
+            color: gray;
+        }
+
+        &-number {
+            color: black;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        &-1 {
+            padding: 16px 45px 16px 20px;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+        }
+
+        &-2 {
+            padding: 16px 20px 16px 20px;
+            top: 0;
+            right: 0;
+            position: absolute;
+        }
+
+    }
 }

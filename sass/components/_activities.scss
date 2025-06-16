@@ -1,0 +1,21 @@
+@use '../abstracts' as *;
+
+.activities {
+    &_header {
+        background-image: $gradient-pink-orange;
+    }
+
+    &_item {
+        &--animation {
+        }
+
+        &-title {
+        }
+
+        &-description {
+        }
+
+        &-cta {
+        }
+    }
+}
