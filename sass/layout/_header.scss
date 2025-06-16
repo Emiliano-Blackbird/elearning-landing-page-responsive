@@ -1,11 +1,15 @@
+@use '../abstracts' as *;
+
 header.header-principal {
   padding-top: 20px;
   padding-bottom: 20px;
+
   .container {
     display: flex;
     justify-content: space-between;
   }
+
   ul {
-   @include reset-list();
+    @include reset-list();
   }
 }
