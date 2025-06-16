@@ -3,3 +3,11 @@
 .button {
     @include button();
 }
+
+.button--pink-blue {
+    @include button--pink-blue();
+}
+
+.button--pink-orange {
+    @include button--pink-orange();
+}

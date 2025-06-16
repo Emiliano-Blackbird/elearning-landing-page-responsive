@@ -41,3 +41,13 @@
   border-radius: 28px;
   font-weight: bold;
 }
+
+@mixin button--pink-orange() {
+  @include button();
+  background-image: $gradient-pink-orange;
+}
+
+@mixin button--pink-blue() {
+  @include button();
+  background-image: $gradient-pink-blue;
+}

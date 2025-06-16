@@ -1,0 +1,14 @@
+.hero {
+    &_title {
+        margin-bottom: 26px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 51px;
+    }
+
+    &_subtitle {
+        margin-bottom: 26px;
+        color: gray;
+        line-height: 26px;
+    }
+}
