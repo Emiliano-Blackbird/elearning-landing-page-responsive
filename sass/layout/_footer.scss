@@ -1,0 +1,21 @@
+@use '../abstracts' as *;
+
+footer.footer-principal {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 35px;
+  background-color: $black;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    @include reset-list();
+  }
+  .button {
+    background: $gradient-pink-blue;
+  }
+}
