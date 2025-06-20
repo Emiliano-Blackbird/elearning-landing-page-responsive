@@ -1,9 +1,9 @@
 @use '../abstracts' as *;
 
 header.header-principal {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  margin-bottom: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 38px;
 
   .container {
     display: flex;
@@ -14,4 +14,10 @@ header.header-principal {
   ul {
     @include reset-list();
   }
+    @include breakpoint(tablethorizontal) {
+        margin-bottom: 80px;
+    }
+    @include breakpoint(desktop) {
+        margin-bottom: 20px;
+    }
 }
