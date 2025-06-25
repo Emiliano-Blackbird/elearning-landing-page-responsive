@@ -28,14 +28,24 @@
     <main>
       <div class="hero">
         <div class="container">
-          <h1 class="hero_title">Maximize skill, minimize budget</h1>
-          <p class="hero_subtitle">Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
-          <p class="hero_button">
-            <a href="" class="button--pink-orange">Get Started</a>
-          </p>
+          <div class="hero_content">
+            <h1 class="hero_title">Maximize skill, minimize budget</h1>
+            <p class="hero_subtitle">Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
+            <p class="hero_button">
+              <a href="" class="button--pink-orange">Get Started</a>
+            </p>
+          </div>
   
           <div class="hero_img">
-            <img src="img/hero-img-mobile.png" alt="">
+            <picture>
+              <!-- Versión para desktop (1024px+) -->
+              <source media="(min-width: 1024px)" srcset="img/hero-img.png">
+              <!-- Versión para tablet (768px+) -->
+              <source media="(min-width: 768px)" srcset="img/hero-img.png">
+              <!-- Versión móvil (default) -->
+              <img src="img/hero-img-mobile.png" alt="Persona aprendiendo en línea">
+            </picture>
+            
             <div class="hero_number hero_number-1">
               <span class="hero_number-title">Course hours</span>
               <span class="hero_number-number">1,450</span>
@@ -55,7 +65,7 @@
           </header>
 
           <article class="activities_item activities_item--animation">
-            <span class="activities_item-icon"><img src="img/icon-run.svg" alt=""></span>
+            <span class="activities_item-icon"><img src="img/icon-run.svg" alt="Icono de animación"></span>
             <h3 class="activities_item-title">Animation</h3>
             <p class="activities_item-description">
               Learn the latest animation techniques to create stunning motion design and captivate your audience.
@@ -66,7 +76,7 @@
           </article>
 
           <article class="activities_item activities_item--design">
-            <span class="activities_item-icon"><img src="img/icon-design.svg" alt=""></span>
+            <span class="activities_item-icon"><img src="img/icon-design.svg" alt="Icono de diseño"></span>
             <h3 class="activities_item-title">Design</h3>
             <p class="activities_item-description">
               Create beautiful, usable interfaces to help shape the future of how the web looks.
@@ -77,7 +87,7 @@
           </article>
 
           <article class="activities_item activities_item--photography">
-            <span class="activities_item-icon"><img src="img/icon-photography.svg" alt=""></span>
+            <span class="activities_item-icon"><img src="img/icon-photography.svg" alt="Icono de fotografía"></span>
             <h3 class="activities_item-title">Photography</h3>
             <p class="activities_item-description">
               Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.
@@ -88,7 +98,7 @@
           </article>
 
           <article class="activities_item activities_item--crypto">
-            <span class="activities_item-icon"><img src="img/icon-crypto.svg" alt=""></span>
+            <span class="activities_item-icon"><img src="img/icon-crypto.svg" alt="Icono de criptomonedas"></span>
             <h3 class="activities_item-title">Crypto</h3>
             <p class="activities_item-description">
               All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.
@@ -99,7 +109,7 @@
           </article>
 
           <article class="activities_item activities_item--business">
-            <span class="activities_item-icon"><img src="img/icon-business.svg" alt=""></span>
+            <span class="activities_item-icon"><img src="img/icon-business.svg" alt="Icono de negocios"></span>
             <h3 class="activities_item-title">Business</h3>
             <p class="activities_item-description">
               A step-by-step playbook to help you start, scale, and sustain your business without outside investment.
@@ -108,7 +118,6 @@
               <a href="#" class="button--link">Get started</a>
             </p>
           </article>
-
         </div>
       </div>
     </main>
@@ -116,7 +125,7 @@
     <footer class="footer-principal">
       <div class="container">
         <a href="">
-          <img src="img/skilled-negative.svg" alt="Logo Skilled-negative">
+          <img src="img/skilled-negative.svg" alt="Logo Skilled en negativo">
         </a>
 
         <nav class="nav-principal">

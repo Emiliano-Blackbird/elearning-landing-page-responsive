@@ -31,12 +31,15 @@
         @include breakpoint(tablet) {
             width: 50%;
             margin: 0;
+            position: relative;
+            height: auto;
         }
         @include breakpoint(tablethorizontal) {
             height: 500px;
         }
         @include breakpoint(desktop) {
-            width: 400px;
+            width: 50%;
+            max-width: 600px;
         }
     }
 
@@ -72,7 +75,9 @@
             left: 0;
             position: absolute;
             @include breakpoint(tablet) {
-                top: -33px;
+                top: auto;
+                bottom: -30px;
+                left: -50px;
             }
             @include breakpoint(tablethorizontal) {
                 top: 64px;
@@ -88,6 +93,7 @@
             right: 0;
             position: absolute;
             @include breakpoint(tablet) {
+                top: auto;
                 bottom: -34px;
                 left: 34px;
             }
@@ -121,7 +127,8 @@
 
     &_content {
         @include breakpoint(tablet) {
-            width: 50%;
+            width: 45%;
+            padding-top: 50px;
         }
         @include breakpoint(tablethorizontal) {
             width: 40%;
