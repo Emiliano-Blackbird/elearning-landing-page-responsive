@@ -94,12 +94,12 @@
             position: absolute;
             @include breakpoint(tablet) {
                 top: auto;
-                bottom: -34px;
-                left: 34px;
+                bottom: 100px;
+                left: 100px;
             }
             @include breakpoint(desktop) {
-                bottom: 154px;
-                left: -53px;
+                bottom: 150px;
+                left: 50px;
             }
         }
     }
