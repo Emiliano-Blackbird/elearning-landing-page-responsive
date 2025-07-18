@@ -31,15 +31,12 @@
         @include breakpoint(tablet) {
             width: 50%;
             margin: 0;
-            position: relative;
-            height: auto;
         }
         @include breakpoint(tablethorizontal) {
             height: 500px;
         }
         @include breakpoint(desktop) {
-            width: 50%;
-            max-width: 600px;
+            width: 400px;
         }
     }
 
@@ -70,20 +67,21 @@
         }
 
         &-1 {
-            padding: 16px 45px 16px 20px;
+            padding: 16px 20px 16px 20px;
             bottom: 0;
             left: 0;
             position: absolute;
             @include breakpoint(tablet) {
                 top: auto;
-                bottom: -30px;
-                left: -50px;
+                bottom: 30px;
+                left: -20px;
             }
             @include breakpoint(tablethorizontal) {
-                top: 64px;
+                top: auto;
+                bottom: -90px;
             }
             @include breakpoint(desktop) {
-                right: 55px;
+                bottom: 0;
             }
         }
 
@@ -93,13 +91,13 @@
             right: 0;
             position: absolute;
             @include breakpoint(tablet) {
-                top: auto;
-                bottom: 100px;
-                left: 100px;
+                top: 80px;
+                left: 170px;
             }
             @include breakpoint(desktop) {
-                bottom: 150px;
-                left: 50px;
+                top: auto;
+                bottom: 320px;
+                left: 200px;
             }
         }
     }
