@@ -1,4 +1,6 @@
-// vite.config.js
-export default {
-  base: '/elearning-landing-page-responsive/',
-};
+
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  base: "/elearning-landing-page-responsive/",
+});
