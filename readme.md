@@ -1,4 +1,4 @@
-# 📚 eLearning Landing Page (Mobile First)
+# eLearning Landing Page (Mobile First)
 
 Una landing page moderna, enfocada en la educación digital y pensada exclusivamente para móviles (por ahora). Ideal para promocionar cursos online y atraer a nuevos estudiantes con un diseño colorido, claro y bien estructurado.
 
